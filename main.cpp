@@ -89,7 +89,6 @@ void display()
     glClearColor(0,0,0,0);
     glClear(GL_COLOR_BUFFER_BIT);
     check();
-    //printf("x pos = %f y pos = %f trianglex[0] = %f triangley[0] = %f\n",xpos,ypos,triangleX[0],triangleY[0]);
     rectangularBoundary();
 
     //-----------------------Moving shapes------------------------
@@ -209,7 +208,6 @@ void display()
     glutSwapBuffers();
     glutPostRedisplay();
 
-    //printf("xpos : %f\t y ypos: %f\n",xpos,ypos);
 }
 void key(int key, int x, int y) // function to make the user able to deal with the system
 {
