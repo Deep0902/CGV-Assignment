@@ -313,7 +313,7 @@ void intro()
 
 int main(int argc, char** argv)
 {
-    srand(time(NULL)); // to use random function
+    srand(time(NULL)); //to use random function
     printf("Use arrow keys to move the circle");
 	glutInit(&argc, argv);
 	glutInitDisplayMode(GLUT_DOUBLE|GLUT_RGB);
