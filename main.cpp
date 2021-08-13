@@ -50,7 +50,7 @@ void finish()
 
 void check()
 {
-    for(int i=0; i<2; i++)
+    for(int i=0; i<5; i++)
     {
         if(xpos>triangleX[i]-30 && xpos<triangleX[i]+140.0 && ypos>triangleY[i]-30.0 && ypos<triangleY[i]+50.0)
         {
